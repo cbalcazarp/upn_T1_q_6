@@ -10,7 +10,7 @@ namespace upn_T1_q_6
             Console.WriteLine("Cantidad de billetes de de 10,20,50,100 y 200 nuevos soles recibirá un empleado como pago por su trabajo");
             Console.Write("Ingrese salario: ");
             salario = Convert.ToDecimal(Console.ReadLine());
-            salario1 = Math.Truncate(salario);
+            salario1 = Math.Truncate(salario / 200);
             Console.WriteLine(salario1);
             
         }
